@@ -21,7 +21,7 @@ int main(){
     for(int i=m;i<=n;i++){
         if(isPrime(i)) {
             if(prev != -1){
-                printf("%d - %d : %d\n",prev,i,i-prev-1)
+                printf("%d - %d : %d\n",prev,i,i-prev-1);
             }
             prev=i;
         }
