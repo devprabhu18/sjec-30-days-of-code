@@ -1,6 +1,5 @@
 #include<iostream>
-#include<cmath>                                             // Math library for sqrt() etc.
-#include<cstdio>                                            //for printf and scanf in c++
+#include<cmath>                                             // Math library for sqrt() etc.                                            //for printf and scanf in c++
 using namespace std;
 int isPrime(int num){                                       //Function to check Prime number
     if(num<2){
@@ -21,7 +20,7 @@ int main(){
     for(int i=m;i<=n;i++){                         
         if(isPrime(i)) {                                    //Calling the function
             if(prev != -1){
-                printf("%d - %d : %d\n",prev,i,i-prev-1);
+                cout>>prev>>" - ">>i>>" : ">>prev-1>>endl;
             }
             prev=i;
         }
