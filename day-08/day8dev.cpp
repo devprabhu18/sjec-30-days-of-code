@@ -20,7 +20,7 @@ int main(){
     for(int i=m;i<=n;i++){                         
         if(isPrime(i)) {                                    //Calling the function
             if(prev != -1){
-                cout>>prev>>" - ">>i>>" : ">>prev-1>>endl;
+                cout<<prev<<" - "<<i<<" : "<<prev-1<<endl;
             }
             prev=i;
         }
